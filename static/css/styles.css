@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg-main: #1C1917;
+  --bg-surface: #292524;
+  --text-primary: #f5f5f4;
+  --text-secondary: #a8a29e;
+
+  --accent-purple: #c4b5fd; /* Color principal (para botones primarios y logos) */
+  --accent-green: #86efac;  /* Para botones de guardar o notificaciones de éxito */
+  --accent-red: #fca5a5;    /* Para botones de eliminar o notificaciones de error */
+  --accent-blue: #93c5fd;   /* Para botones de editar o notificaciones informativas */
+  --accent-yellow: #fde047; /* Para destacar datos importantes (ej. cantidad de stock) */
+
+  --border-color: #44403c; /* Color de las líneas divisorias que separan elementos */
+  --transition-speed: 0.25s; /* Velocidad estándar para todas las animaciones (hover, focus) */
+}
