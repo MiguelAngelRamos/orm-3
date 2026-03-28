@@ -18,6 +18,27 @@
 
 body {
   background-color: var(--bg-main);
-  font-family: 'Outfit', sans-serif;
   color: var(--text-primary);
+  font-family: 'Outfit', sans-serif;
+  /* Suaviza el renderizado de las fuentes en navegadores WebKit */
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-brand {
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand i {
+  color: var(--accent-purple);
+}
+
+.content-grid {
+  
 }
