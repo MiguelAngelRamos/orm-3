@@ -15,3 +15,9 @@
   --border-color: #44403c; /* Color de las líneas divisorias que separan elementos */
   --transition-speed: 0.25s; /* Velocidad estándar para todas las animaciones (hover, focus) */
 }
+
+body {
+  background-color: var(--bg-main);
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-primary);
+}
